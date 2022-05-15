@@ -1,0 +1,17 @@
+body{
+	background:url(../images/bk.jpg);
+}
+
+h1{
+	text-align:center;
+}
+
+body .aa{
+    display: flex;
+	justify-content: center;
+}
+
+.canh{
+	display: flex;
+    justify-content: center;
+}

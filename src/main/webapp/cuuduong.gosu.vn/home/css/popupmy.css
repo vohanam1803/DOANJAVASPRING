@@ -1,0 +1,437 @@
+/*****************COMMON******************/
+body {
+	font: 13px/20px Tahoma, Arial, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,form,ul,ul li,ol,ol li,dl,dl dt,dl dd,blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+ul,ul li,ol,ol li {
+	list-style: none outside none;
+}
+
+img {
+	border: 0 none;
+}
+
+a {
+	outline: 0 none;
+}
+
+a:link,a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*****************COMMON******************/
+
+
+
+/* NĂ¡Â»â„¢i dung popup*/
+.login-popup {
+	/*margin-left: 172.5px;*/
+	background: url(../images/bgd_popup_dangky.png) no-repeat center top;
+	padding: 0px;
+	font-size: 1em;
+	position: fixed;
+	/*Hai giÄ‚Â¡ trĂ¡Â»â€¹ quyĂ¡ÂºÂ¿t Ă„â€˜Ă¡Â»â€¹nh vĂ¡Â»â€¹ trÄ‚Â­ popup*/
+	top: 0px;
+	left: 0px;
+	z-index: 99999;
+	height: 453px;
+	width: 375px;
+  border-right: 5px solid #112141;
+  border-left: 5px solid #112141;
+  box-sizing: border-box;
+  position: absolute;
+  left: 48%;
+  transform: translateX(-48%);
+}
+/*NĂ¡Â»â„¢i dung con cĂ¡Â»Â§a popup*/
+#content-popup {
+	margin-left: 17px;
+	margin-top: 11px;
+	overflow: hidden;
+	width: 100%;
+	height: 453px;
+}
+
+/* NÄ‚Âºt close*/
+img.btn_close {
+	float: left;
+	margin-right: 4px;
+	margin-left: 413px;
+	margin-top: 12px;
+	border: none;
+	position: absolute;
+	background: url("../images/btn_close_popupa1.png") no-repeat;
+}
+/**************************************************************/
+#content-popup ul {
+	float: left;
+}
+
+#content-popup ul li {
+	float: left;
+}
+
+#content-popup ul li a {
+	float: left;
+}
+
+#tabxx1 {
+/* 	height: 20px; */
+/* 	width: 160px; */
+/* 	background: url("../images/title_popup1.png") no-repeat 1px 1px; */
+/* 	display: block; */
+/* 	margin-left: 0px; */
+/* 	margin-top: 0px; */
+
+	/*background: url("../images/title_popup1.png") no-repeat -3px -3px;*/
+    display: block;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 0;
+    width: 160px;
+
+}
+ 
+#tabxx2 {
+/* 	height: 20px; */
+/* 	width: 98px; */
+/* 	background: url("../images/title_popup1.png") no-repeat -3px -3px ; */
+/* 	display: block; */
+/* 	margin-left: 16px; */
+/* 	margin-top: 0px; */
+
+ 	background: url("../images/title_popup1.png") no-repeat -212px -3px;
+    display: block;
+    height: 20px;
+    margin-left: 52px;
+    margin-top: 0;
+    width: 145px;
+}
+#tabxx2:hover {
+	background: url("../images/title_popup1.png") no-repeat -212px -52px ;
+}
+.activexx1 #tabxx2 {
+	background: url("../images/title_popup1.png") no-repeat -212px -52px ;
+}
+#contentTabxx{
+	width: 100%;
+	height: 453px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 2px;
+	
+}
+#contenttabxx1{
+	width: 100%;
+	height: 453px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 25px;
+}
+#contenttabxx2{
+	width: 695px;
+	height: 453px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+/*********/
+#titleDangKy{
+	height: 0;
+	width: 220px;
+	background: url("../images/title_dangky.png") no-repeat 0px 0px;
+	margin-left: 80px;
+	margin-top: 55px;	
+}
+
+#titleDangKyMkGame{
+	height: 30px;
+	width: 237px;
+	background: url("../images/title-mkgame.png") no-repeat 0px 0px;
+	margin-left: 20px;
+	margin-top: 26px;
+}
+#tablePopup{
+	/*float: left;*/
+	margin-left: 48px;
+	margin-top: 23px;
+	width: 244px;
+	height: 204px;
+}
+
+.form-register{
+	/*float: left;*/
+	margin-left: 50px;
+	margin-top: 23px;
+	width: 244px;
+	height: 204px;	
+}
+
+
+
+.form-password{
+	display: none;
+	/*float: left;*/
+	margin-left: 50px;
+	margin-top: -57px !important;
+	width: 244px;
+	height: 204px;
+}
+
+#tablePopup tr{
+	height: 13px;
+}
+
+#tablePopup td{
+	text-align: left;
+	
+}
+#tablePopup input[type="text"]{
+	width: 265px;
+	height: 35px;
+/* 	border: none; */
+	border: 1px solid #d9d9d9;
+	background-color: #ffffff;
+	color: #000000;
+	text-align: center;
+	font-weight: normal;
+	font-size:13px;
+	font-family: Tahoma;
+}
+#tablePopup input[type="password"]{
+	width: 265px;
+	height: 35px;
+/* 	border: none; */
+	border: 1px solid #d9d9d9;
+	background-color: #ffffff;
+	color: #000000;
+	text-align: center;
+	font-weight: normal;
+	font-size:13px;
+	font-family: Tahoma;
+}
+#tablePopup input[exten="captcha"]{
+	width: 153px;
+	height: 27px;
+/* 	border: none; */
+	border: 1px solid #c2bba7;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: normal;
+	font-size:13px;
+	font-family: Tahoma;
+}
+.captchaPopup{
+	width: 82px;
+	height: 27px;
+	margin-left: 1px;
+	margin-top: -18px;
+}
+#btnSubmitPopup{
+	width: 230px;
+	height: 59px;
+	border: none; 
+	background: url('../images/btn_dongy_hover.png') no-repeat center top;
+	/*float: left;*/
+	margin-top: 0px !important;
+	margin-left: 60px;
+	cursor: pointer;
+}
+#btnSubmitPopup:hover{
+	background: url('../images/btn_dongy.png') no-repeat center top;
+}
+#titleDangnhap{
+	height: 45px;
+	width: 216px;
+	background: url("../images/title_dangnhap.png") no-repeat 0px 0px;
+	margin-left: 97px;
+	margin-top: 30px;
+}
+#tablePopup2{
+	float: left;
+	margin-left: 82px;
+	margin-top: 23px;
+	width: 244px;
+	height: 82px;
+}
+#tablePopup2 tr{
+	height: 19px;
+	
+}
+#tablePopup2 td{
+	text-align: left;
+	
+}
+#tablePopup2 input[type="text"]{
+	width: 241px;
+	height: 27px;
+/* 	border: none; */
+	border: 1px solid #c2bba7;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: normal;
+	font-size:13px;
+	font-family: Tahoma;
+}
+#tablePopup2 input[type="password"]{
+	width: 241px;
+	height: 27px;
+/* 	border: none; */
+	border: 1px solid #c2bba7;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: normal;
+	font-size:13px;
+	font-family: Tahoma;
+}
+#btnSubmitPopup2{
+	width: 230px;
+	height: 106px;
+	border: none; 
+	background: url('../images/btn_dongy_hover.png') no-repeat center top;
+	float: left;
+	margin-top: -10px;
+	margin-left: 77px;
+	cursor: pointer;
+}
+#btnSubmitPopup2:hover{
+	background: url('../images/btn_dongy.png') no-repeat center top;
+}
+#lostPass {
+	float: left;
+	width: 222px;
+	height: 24px;
+	margin-left: 100px;
+	background: url('../images/icon_ngocboi.png') no-repeat 1px 3px;
+	padding-left: 23px;
+	padding-top: 1px;
+}
+#lostPass a{
+	color: #000000;
+/* 	font-weight: bold; */
+}
+#regFast{
+	float: left;
+	width: 222px;
+	height: 24px;
+	margin-left: 100px;
+	background: url('../images/icon_ngocboi.png') no-repeat 1px 3px;
+	padding-left: 23px;
+	padding-top: 1px;
+}
+#regFast a{
+	color: #000000;
+ 	font-weight: bold; 
+}
+#textRed{
+	color: #951803;
+}
+.error{
+/*     color: firebrick; */
+/*     font: 12px Bienvenue; */
+ 	color: #FF0000;
+    font-family: tahoma;
+    font-size: 12px;
+}
+.errorEmail {
+	color: #FF0000;
+	font-family: tahoma;
+	font-size: 12px;
+}
+
+.errorRepassword {
+	color: #FF0000;
+	font-family: tahoma;
+	font-size: 12px;
+}
+
+.errorPassword {
+	color: #FF0000;
+	font-family: tahoma;
+	font-size: 12px;
+}
+
+.errorUsername {
+	color: #FF0000;
+	font-family: tahoma;
+	font-size: 12px;
+}
+.thongtinDangnhap{
+	margin-top:167px;
+	color: #713E17;
+	font-size: 15px;
+	
+}
+
+.thongtinXinchao{
+	color: #713E17;
+	font-size: 15px;
+}
+.tenDangnhap{
+	font-weight: bold;
+}
+.loginQuick{
+	float: left;
+	color: #5d0c07;
+	font-size: 14px;
+	margin-left: 89px;
+	margin-top: 7px;
+}
+.loginQuick a{
+	color: #5d0c07;
+	cursor: pointer;
+}
+
+.activexx1 a.popup-title{
+	margin-left:125px !important;
+}
+
+#titleDangKy-kichhoat{
+	background: url("../images/title-kichhoat.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 41px;
+	margin-left: 50px;
+	margin-top: 30px;
+	width: 342px;
+}
+
+td.mk-game{
+	text-align: center !important;
+	line-height:30px;
+	font-size:14px;
+	color:#713E17;
+}
+
+.table-active{
+	margin-top:0px !important; 
+}
+
+p.kichhoat-error{
+	color:#cb2100;
+	height:10px;
+	text-align:center;
+	font-weight:bold;
+}
+
+
+.fancybox-nav.fancybox-prev,
+.fancybox-nav.fancybox-next{
+	display: none;
+}
+
+.gosu-popup-close {
+	right: 170px !important;
+}
